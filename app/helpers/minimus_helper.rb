@@ -1,0 +1,2 @@
+module MinimusHelper
+end

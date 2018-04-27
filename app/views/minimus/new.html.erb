@@ -1,0 +1,11 @@
+<h1>New Minimu</h1>
+
+<%= form_for @minimu do |f| %>
+<%= f.text_field :long_url %>
+<%= f.submit "shorten" %>
+<% end %>
+
+
+<%# = render 'form', minimu: @minimu %>
+
+<%= link_to 'Back', minimus_path %>

@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Short url:</strong>
+  <%= link_to( @minimu.short_url, @minimu.short_url) %>
+</p>
+
+<p>
+  <strong>Long url:</strong>
+  <%= @minimu.long_url %>
+</p>
+
+<%= link_to 'Edit', edit_minimu_path(@minimu) %> |
+<%= link_to 'Back', minimus_path %>

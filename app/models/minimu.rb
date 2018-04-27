@@ -1,0 +1,2 @@
+class Minimu < ApplicationRecord
+end
